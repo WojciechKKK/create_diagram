@@ -137,12 +137,15 @@ margin-right: 0.2vw
   text-align: center;
   cursor: pointer;
   font-size: 1vw;
-  color: black;
+  color: #FFF;
+  background: #000;
+  border-radius: 1vw;
+  padding: 0.2vw
 }
-.btn-del-main:hover{
-  background: red;
-  color: black;
-}
+/* .btn-del-main:hover{
+  background: #FFF;
+  color: #000;
+} */
 
 
 /* for eleement in Main */
@@ -284,7 +287,7 @@ label{
   margin: 0
 }
 input{
-  font-size: 2vw;
+  font-size: 3vw;
   width: 4vw;
   height: 4vw;
   margin-left: 1vw;
@@ -468,3 +471,19 @@ td{
   display: table; 
   clear: both; 
 } */
+
+tr{
+  animation-name: test;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+@keyframes test {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
