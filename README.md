@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 #### General info
-This project is allows create a diagram for now only bar graph. You can choose color and add field values.
+This project allows to create a bar graph/chart only. You can choose colors and add field values.
 	
 #### Technologies
 Project is created with:
