@@ -219,11 +219,12 @@ div.app-select-diagram{
   /* width: 15% */
 }
 .imgDiagramFirst{
-  background: url("https://img.icons8.com/ios/50/000000/doughnut-chart.png");
+  background: url("https://img.icons8.com/ios/50/000000/bar-chart.png");
+  
 }
 
 .imgDiagramSecond{
-  background: url("https://img.icons8.com/ios/50/000000/bar-chart.png")
+  background: url("https://img.icons8.com/ios/50/000000/doughnut-chart.png");
 }
 .imgDiagramThird{
   background: url("https://img.icons8.com/ios/50/000000/scatter-plot.png")
@@ -236,6 +237,9 @@ div.app-select-diagram{
   background-repeat: no-repeat;
   background-position: center;
   transform: scale(1.3);
+}
+.imgDiagramFirst{
+  transform: rotate(90deg)
 }
 
 .nameDiagram{
@@ -375,26 +379,37 @@ input#titleColor {
 
 .btn-add-value{
   /* padding: 0.1vw 1vw; */
-  font-size: 6vw;
+  font-size: 2vw;
   background: #b3cde0;
-  border: 0.2vw solid #b3cde0;
   border-radius: 1vw;
-  color: #FFF;
+  color: #000;
+  background: #FFF;
   cursor: pointer;
-  margin:0 3vw 0 3vw;
+  margin: 1vw 3vw ;
+  border: 0.2vw solid #FFF;
+  padding: 1vw 16vw
   /* transform: scale(2) */
 }
 .btn-add-value:hover{
-  color: #000;
+  color: #FFF;
+  background: #000;
+  border: 0.2vw solid #000
 }
 
 .nav-el-chooise{
   text-align: center;
   margin: 2vw auto 0 auto;
   padding: 1vw;
-  font-size: 1.5vw
+  font-size: 1.5vw;
+  width: 55%
 }
 
+p.title-data-nav{
+  font-size: 2vw;
+  border-bottom: 0.2vw solid #000;
+  width: 55%;
+  margin: 0 auto
+}
 .data-nav-el-values{
   display: block;
   margin: 1vw 2vw;

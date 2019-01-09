@@ -90,13 +90,13 @@ class ElementCustonValue extends Component{
                         <input onChange={this.setValTitleColor} value={valTitleColor} id="titleColor" type="color"></input>
                         Kolor
                     </label>
-                    <button className="btn-add-value" onClick={this.addNewValue}>+</button>
+                    <button className="btn-add-value" onClick={this.addNewValue}>Dodaj</button>
                 </div>
                 <div className="nav-el-chooise">
-                {/* {allValues.length != 0 
+                {allValues.length != 0 
                 ? <p className="title-data-nav">Dane do wykresu:</p>
                 : null
-                } */}
+                }
                 {allValues.map((el,i) => {
                 return (
                     <div className="data-nav-el-values" key={el}>{i+1}. 

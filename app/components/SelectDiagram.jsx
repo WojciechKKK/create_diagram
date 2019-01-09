@@ -65,13 +65,13 @@ class SelectDiagram extends Component {
                     <div className="imgDiagramFirst"></div><br />
                     <a className="nameDiagram">Słupkowy</a>
                 </div>
-                <div className="diagramSecond" onClick={this.chooseKolowy}>
+                <div className="diagramSecond">
                     <div className="imgDiagramSecond"></div><br />
-                    <a className="nameDiagram">In-progress</a>
+                    <a className="nameDiagram">Kołowy</a>
                 </div>
-                <div className="diagramThird" onClick={this.choosePunktowy}>
+                <div className="diagramThird">
                     <div className="imgDiagramThird"></div><br />
-                    <a className="nameDiagram">In-progress</a>
+                    <a className="nameDiagram">Punktowy</a>
                 </div>
                 <div className="container-btn">
                     <button className="btn-next-main" onClick={this.closeThisElement}>
