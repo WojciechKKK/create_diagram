@@ -112,7 +112,7 @@ class Main extends Component{
                         : null
                     }
                  </div>
-                 <div className="btn-del-main" onClick={this.deleteThisElement}>x</div>
+                 <div className="btn-del-main" onClick={this.deleteThisElement}>Close</div>
             </main>
         )
     }

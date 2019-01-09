@@ -130,22 +130,23 @@ margin-right: 0.2vw
 }
 
 .btn-del-main{
-  width: 1vw;
+  /* width: 1vw; */
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0.4vw;
+  right: 0.4vw;
   text-align: center;
   cursor: pointer;
   font-size: 1vw;
   color: #FFF;
   background: #000;
   border-radius: 1vw;
-  padding: 0.2vw
+  padding: 0.2vw;
+  width: 4vw
 }
-/* .btn-del-main:hover{
-  background: #FFF;
+.btn-del-main:hover{
+  background: red;
   color: #000;
-} */
+}
 
 
 /* for eleement in Main */

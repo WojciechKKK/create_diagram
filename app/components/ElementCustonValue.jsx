@@ -83,7 +83,7 @@ class ElementCustonValue extends Component{
                         Nazwa:
                     </label>
                     <label htmlFor="titleNumber">
-                        <input type="number" maxLength="3" min="0" max="100" onChange={this.setValTitleNumber} value={valTitleNumber} id="titleNumber" ></input>
+                        <input type="number" maxLength="3" min="0" max="100" onChange={this.setValTitleNumber} value={valTitleNumber} id="titleNumber"></input>
                         Wartość:
                     </label>
                     <label htmlFor="titleColor">
