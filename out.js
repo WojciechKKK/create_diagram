@@ -11,7 +11,7 @@
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moconsolduleId,
+/******/ 			i: moduleId,
 /******/ 			l: false,
 /******/ 			exports: {}
 /******/ 		};
@@ -21618,8 +21618,8 @@ var AppCreateDiagram = function (_Component) {
                 counter: counterPlus,
                 itemsNav: _this.state.itemsNav.concat(counterPlus)
             });
-            //console.log(_this.state.itemsNav);
-            //console.log(_this.state.counter);
+            // console.log(this.state.itemsNav)
+            // console.log(this.state.counter)
         };
 
         _this.deleteNewNav = function (elem) {
